@@ -1,5 +1,7 @@
 [project]
 name = Datafem
+url_style = relative
+url =  https://geraldinee.github.io/DataFem/
 
 [servers.ghpages]
 target = ghpages+https://GeraldineE/DataFem
