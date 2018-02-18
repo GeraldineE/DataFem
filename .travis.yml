@@ -11,4 +11,4 @@ script:
 
 deploy:
     provider: script
-    script: "lektor deploy --username $GITHUB_USER -- password $GITHUB_PASS"
+    script: "lektor deploy --username $GITHUB_USER --password $GITHUB_PASS"
