@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% set ag=(this.dob.today().year - this.dob.year)%}
+{% if ag > 30 %}
+Hola
+{% else %}
+Chao 
+{% endif %}
+{% endmacro %}
