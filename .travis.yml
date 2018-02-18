@@ -6,10 +6,10 @@ install:
   # lektor build dependecies
   - pip install lektor
 
-  script:
+script:
   - lektor build
 
-  deploy:
+deploy:
     provider: script
     script: "lektor deploy --username $GITHUB_USER -- password $GITHUB_PASS"
     on:
